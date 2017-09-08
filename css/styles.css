@@ -1,0 +1,155 @@
+/*
+#stylesheet main.css
+#
+*/
+
+
+/* ------------------------------------------------------------------ */
+/* a. Webfonts and Icon fonts
+ ------------------------------------------------------------------ */
+@import url("fa-fa.css");
+@import url("fontello.css");
+
+
+
+/* ------------------------------------------------------------------ */
+/*  b.reset by normalize
+ ------------------------------------------------------------------ */
+@import url("normalize.css");
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+}
+
+/* ------------------------------------------------------------------ */
+/*  . AND THE REST
+ ------------------------------------------------------------------ */
+
+html{
+
+}
+body{
+  position: fixed;
+  z-index:1;
+  background-color: #100020;
+  background: #161415 url(../img/homebg.jpg) no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  width:100%;
+  height:720px;
+} 
+header{
+
+}
+nav{
+
+}
+.current{
+  color: #fff !important;
+}
+.opaque { background-color: #333; }
+.strapps{ height: 48px;}
+
+/*============AND THE SECTIONS ============================================*/
+/*==========================================================================*/
+
+/*--------------------HOME*/
+
+#home{
+  position: relative;
+  min-height: 500px;
+  text-align: center;
+  overflow: hidden;
+  width:100%;
+  height:720px;
+  background-image: url("../img/bg1.jpg");
+}
+ #home #nav-bar{
+  position:fixed;
+  width: 100%;
+  text-align: center;
+  background: #355566;
+  opactiy:7;*/
+}
+#home > #nav-bar > ul li{
+  list-style: none;
+  height: 48px;
+  display: inline-block;
+}
+#nav-bar > ul .current{
+  color: #fff !important;
+}
+
+/* Links */
+#nav-bar > ul li a {
+
+/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+
+   display: inline-block;
+   padding: 8px 13px;
+   line-height: 32px;
+   text-decoration: none;
+   text-align: left;
+   color: #f1ca13;
+
+  -webkit-transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  -o-transition: color .2s ease-in-out;
+  -ms-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+}
+.scrolldown{
+  font-size: 2px;
+  margin-bottom: 10px;
+}
+/*--------------------ABOUT*/
+#about{
+  margin-top: 48px;
+  width:100%;
+  height:720px;
+}
+
+/*--------------------RESUME*/
+#resume{
+  margin-top: 48px;
+  width:100%;
+  height:720px;
+}
+
+/*--------------------PORTFOLIO*/
+#portfolio{
+  margin-top: 48px;
+  width:100%;
+  height:720px;
+}
+
+/*--------------------TESTIMONIALS*/
+#testimonials{
+  margin-top: 48px;
+  width:100%;
+  height:720px;
+}
+
+/*--------------------CONTACT*/
+
+#contact{
+  margin-top: 48px;
+  width:100%;
+  height:720px;
+}
