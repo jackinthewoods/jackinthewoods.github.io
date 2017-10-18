@@ -1,72 +1,87 @@
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Jackinthewoods</title>
-    <!-- main style -->
-    <!-- all other stylesheets are loaded from/by the main styles -->
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+<html lang="en">
+<head>
 
-    <link rel="shortcut icon" href="favicon.png" >
+  <meta charset="utf-8">
+  <title>jackinthewoods</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 
-  </head>
-  <body>
-  <!-- navigation bar -->
-  <header id="home">
-    <nav id='nav-bar'>
+</head>
+<body>
+
+  <!-- preloader -->
+  <div id="preloader">
+
+  </div>
+
+  <!-- nav menu --> 
+  <div id="nav-menu">
+    <!-- nav menu list -->
+    <div id="nav-bar">
       <ul>
-        <li class="current"><a href="https://jackinthewoods.github.io" title="home">Home</a></li>
-        <li><a href="#about" title="about">About</a></li>
-        <li><a href="#resume" title="resume">Resume</a></li>
-        <li><a href="#portfolio" title="portfolio">Portfolio</a></li>
-        <li><a href="#testimonials" title="testimonials">Testimonials</a></li>
-        <li><a href="#contact" title="contact">Contact</a></li>
-      </ul>
-    </nav><!-- end nav-bar -->
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#work">Works</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul> 
+    </div>
+    <!-- nav controls -->
+    <div id="nav-controls">
+      <a href="#" class="ishidden" id="showNav"><span><i class="fa fa-list"></i></span></a>
 
-    <div id='banner'>
+    </div>
+    
+  </div> <!-- end nav -->
+                  
+  <!-- page content -->
+  <div class="content">
+
+    <!-- home section -->
+    <div id="home" class="card">
+      <div class="welcome">
+        <h3>hey yo!</h3>
+        <p>I am Jack Woods</p>
+        <p>semi-pro web developer</p>
+      </div>
+      <div class="checkme">
+        <a href="#about"><p>check me out</p></a>
+      </div>
+    </div>
+
+    <!-- about section -->
+    <div id="about" class="ishidden">
+      <h2>All About Me</h2>
+    </div>
+
+     <!-- me skills -->
+    <div id="skills" class="ishidden">
+      <h2>My Skills</h2>
+    </div>
+
+    <!-- my work -->
+    <div id="porfolio" class="ishidden">
+      <h2>My Work</h2>
+    </div>
+
+    <!-- contact section -->
+    <div id="contact" class="ishidden">
+      <h2>Contact Me</h2>
+    </div>
+
+    <!-- floaty spirit_bubbles contact things -->
+    <div class="spirit_bubbles">
       
     </div>
 
-    <p class="scrolldown">
-      <a class="smoothscroll" href="#about">scroll down<i class="icon-down-circle"></i></a>
-    </p>
+  </div>
+<!-- scripts -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 
-  </header>
-  <!-- end nav bAR -->
-
-  <!-- ==========ABOUT section======= -->
-  <section id='about'>
-   I'll tell you all about myself soon...
-  </section> 
-  <!-- =end about section -->
-
-  <!-- ============RESUME section ==== -->
-  <section id='resume'>
-    
-  </section> 
-  <!-- ==end resume section == -->
-
-  <!-- ============ PORTFOLIO SECTION ====== -->
-  <section id='portfolio'>
-    
-  </section>
-  <!-- ==end portfolio section== -->
-
-  <!-- ============CONTACT SECTION ========== -->
-  <section id='contact'>
-    
-  </section>
-  <!-- end contsct secction  -->
-
-  <!-- start footer -->
-  <footer>
-    
-  </footer>
-  <!-- end footer -->
-  <!-- enter javascript -->
-    <script type="text/javascript" src='js/main.js'></script>
-  <!-- end of life -->
-  </body>
+</body>
 </html>
