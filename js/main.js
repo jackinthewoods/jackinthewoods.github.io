@@ -14,7 +14,7 @@ $(document).ready(function() {
     });
 
     $('body').backstretch([
-        "img/5.jpg"
+        "img/bg1.jpg"
         ], {duration: 400,fade:1300});
 
 });
